@@ -5,6 +5,7 @@ function HomePage() {
     <div className="jumbotron">
       <h1>Courses Adminstration</h1>
       <p>React, Flux, and React Router for ultra-responsive web apps.</p>
+      <a href="/about">About</a>
     </div>
   );
 }
