@@ -8,7 +8,7 @@ function CourseList(props) {
       <thead>
         <tr>
           <th>Title</th>
-          <th>Author Id</th>
+          <th>Author ID</th>
           <th>Category</th>
         </tr>
       </thead>
@@ -30,7 +30,7 @@ function CourseList(props) {
 }
 
 CourseList.propTypes = {
-  course: PropTypes.arrayOf(
+  courses: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       title: PropTypes.string.isRequired,
